@@ -2,7 +2,7 @@
 import { css } from '@emotion/react';
 import FeatherIcon from 'feather-icons-react';
 import useFetch from '../hooks/useFetch';
-import cat from '../styling/cat';
+import cat from './cardComponents/CatCart';
 
 const Card = ({ card }) => {
 	// const style = useFetch(`http://localhost:8000/style`);
@@ -21,6 +21,7 @@ const Card = ({ card }) => {
 
 	switch (card.type) {
 		case 'cat':
+			console.log(card.type + ' is cat');
 			style = cat(card);
 	}
 

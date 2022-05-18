@@ -1,11 +1,11 @@
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
 
-const cat = elm => {
+const CatCard = elm => {
 	let styling = {
 		layout: css``,
 	};
 	return;
 };
 
-export default cat;
+export default CatCard;

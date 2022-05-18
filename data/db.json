@@ -9,7 +9,8 @@
 				"tag": "travel",
 				"header": "Surfing in Maldives",
 				"body": "It's windy. The cool breeze of the ocean. It gives, a sense of beauty, in motion. All is flowing, rushing and tide. And I sit in wonder, dreaming."
-			}
+			},
+			"size": "l"
 		},
 		{
 			"id": 2,
@@ -34,7 +35,8 @@
 			"text": {
 				"header": "On-time delivery",
 				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam"
-			}
+			},
+			"size": "l"
 		},
 		{
 			"id": 4,
@@ -44,7 +46,8 @@
 			"text": {
 				"header": "Parcels",
 				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam"
-			}
+			},
+			"size": "l"
 		},
 		{
 			"id": 5,
@@ -54,7 +57,8 @@
 			"text": {
 				"header": "Quality check",
 				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam"
-			}
+			},
+			"size": "l"
 		},
 		{
 			"id": 6,
@@ -64,7 +68,8 @@
 			"text": {
 				"header": "Customer service",
 				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam"
-			}
+			},
+			"size": "l"
 		},
 		{
 			"id": 7,
@@ -197,7 +202,8 @@
 						"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 					}
 				}
-			]
+			],
+			"size": "s"
 		},
 		{
 			"id": 13,
@@ -207,7 +213,8 @@
 			"text": {
 				"tag": "architecture",
 				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit  hendrerit"
-			}
+			},
+			"size": "s"
 		},
 		{
 			"id": 14,
@@ -217,7 +224,8 @@
 			"text": {
 				"tag": "travel & leisure",
 				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit  hendrerit"
-			}
+			},
+			"size": "s"
 		},
 		{
 			"id": 15,
@@ -227,7 +235,8 @@
 			"text": {
 				"tag": "greenery",
 				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit  hendrerit"
-			}
+			},
+			"size": "s"
 		},
 		{
 			"id": 16,
@@ -237,7 +246,8 @@
 			"text": {
 				"tag": "beaches",
 				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit  hendrerit"
-			}
+			},
+			"size": "s"
 		},
 		{
 			"id": 17,
@@ -274,7 +284,8 @@
 						"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet"
 					}
 				}
-			]
+			],
+			"size": "l"
 		},
 		{
 			"id": 18,
@@ -326,7 +337,8 @@
 			"icon": "pen-tool",
 			"text": {
 				"tag": "design"
-			}
+			},
+			"size": "s"
 		},
 		{
 			"id": 22,
@@ -334,87 +346,7 @@
 			"icon": "book-open",
 			"text": {
 				"tag": "education"
-			}
-		}
-	],
-	"style": [
-		{
-			"grid_area": 1,
-			"size": "l"
-		},
-		{
-			"grid_area": 2
-		},
-		{
-			"grid_area": 3,
-			"size": "l"
-		},
-		{
-			"grid_area": 4,
-			"size": "l"
-		},
-		{
-			"grid_area": 5,
-			"size": "l"
-		},
-		{
-			"grid_area": 6,
-			"size": "l"
-		},
-		{
-			"grid_area": 7
-		},
-		{
-			"grid_area": 8
-		},
-		{
-			"grid_area": 9
-		},
-		{
-			"grid_area": 10
-		},
-		{
-			"grid_area": 11
-		},
-		{
-			"grid_area": 12,
-			"size": "s"
-		},
-		{
-			"grid_area": 13,
-			"size": "s"
-		},
-		{
-			"grid_area": 14,
-			"size": "s"
-		},
-		{
-			"grid_area": 15,
-			"size": "s"
-		},
-		{
-			"grid_area": 16,
-			"size": "s"
-		},
-		{
-			"grid_area": 17,
-			"size": "l"
-		},
-		{
-			"grid_area": 18
-		},
-		{
-			"grid_area": 19
-		},
-		{
-			"grid_area": 20
-		},
-		{
-			"grid_area": 21,
-			"size": "s"
-		},
-		{
-			"grid_area": 22,
+			},
 			"size": "s"
 		}
 	]
