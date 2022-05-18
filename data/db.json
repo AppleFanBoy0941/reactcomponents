@@ -4,7 +4,7 @@
 			"id": 1,
 			"type": "cat",
 			"color": "#6468AA",
-			"image": ["http://localhost:8000/images/surfing-img.jpg"],
+			"images": ["http://localhost:8000/images/surfing-img.jpg"],
 			"text": {
 				"tag": "travel",
 				"header": "Surfing in Maldives",
@@ -14,7 +14,7 @@
 		{
 			"id": 2,
 			"type": "gall",
-			"image": [
+			"images": [
 				"http://localhost:8000/images/gallery-1.jpg",
 				"http://localhost:8000/images/gallery-2.jpg",
 				"http://localhost:8000/images/gallery-3.jpg",
@@ -69,7 +69,7 @@
 		{
 			"id": 7,
 			"type": "coll",
-			"image": [
+			"images": [
 				"http://localhost:8000/images/collection-10.webp",
 				"http://localhost:8000/images/author-1.jpeg"
 			],
@@ -82,7 +82,7 @@
 		{
 			"id": 8,
 			"type": "coll",
-			"image": [
+			"images": [
 				"http://localhost:8000/images/collection-1.jpg",
 				"http://localhost:8000/images/author-2.jpeg"
 			],
@@ -95,7 +95,7 @@
 		{
 			"id": 9,
 			"type": "coll",
-			"image": [
+			"images": [
 				"http://localhost:8000/images/collection-123.webp",
 				"http://localhost:8000/images/author-3.jpeg"
 			],
@@ -118,6 +118,10 @@
 				"tag": "the new york times",
 				"header": "Must see places for summer",
 				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit"
+			},
+			"button": {
+				"type": "like",
+				"icon": "heart"
 			}
 		},
 		{
@@ -129,7 +133,7 @@
 			},
 			"list": [
 				{
-					"image": ["http://localhost:8000/images/latest_news/nature.jpg"],
+					"images": ["http://localhost:8000/images/latest_news/nature.jpg"],
 					"color": "#82BD83",
 					"text": {
 						"tag": "nature",
@@ -137,7 +141,7 @@
 					}
 				},
 				{
-					"image": [
+					"images": [
 						"http://localhost:8000/images/latest_news/animal-kingdom.jpg"
 					],
 					"color": "#4D80B7",
@@ -147,7 +151,7 @@
 					}
 				},
 				{
-					"image": ["http://localhost:8000/images/latest_news/tech.jpg"],
+					"images": ["http://localhost:8000/images/latest_news/tech.jpg"],
 					"color": "#D1B881",
 					"text": {
 						"tag": "technology",
@@ -155,7 +159,7 @@
 					}
 				},
 				{
-					"image": ["http://localhost:8000/images/latest_news/explore.jpg"],
+					"images": ["http://localhost:8000/images/latest_news/explore.jpg"],
 					"color": "#E07F96",
 					"text": {
 						"tag": "explore",
@@ -163,7 +167,7 @@
 					}
 				},
 				{
-					"image": ["http://localhost:8000/images/latest_news/africa-zoo.jpg"],
+					"images": ["http://localhost:8000/images/latest_news/africa-zoo.jpg"],
 					"color": "#5C8FC3",
 					"text": {
 						"tag": "africa zoo",
@@ -175,9 +179,10 @@
 		{
 			"id": 12,
 			"type": "list",
+			"text": {},
 			"list": [
 				{
-					"image": ["http://localhost:8000/images/categories/food.jpg"],
+					"images": ["http://localhost:8000/images/categories/food.jpg"],
 					"color": "#C08BA2",
 					"text": {
 						"tag": "food & lifestyle",
@@ -185,7 +190,7 @@
 					}
 				},
 				{
-					"image": ["http://localhost:8000/images/categories/fashion.jpg"],
+					"images": ["http://localhost:8000/images/categories/fashion.jpg"],
 					"color": "#5FAACA",
 					"text": {
 						"tag": "fashion",
@@ -197,7 +202,7 @@
 		{
 			"id": 13,
 			"type": "cat",
-			"image": ["http://localhost:8000/images/wide/architecture.jpg"],
+			"images": ["http://localhost:8000/images/wide/architecture.jpg"],
 			"color": "#D3D36F",
 			"text": {
 				"tag": "architecture",
@@ -207,7 +212,7 @@
 		{
 			"id": 14,
 			"type": "cat",
-			"image": ["http://localhost:8000/images/wide/travel.webp"],
+			"images": ["http://localhost:8000/images/wide/travel.webp"],
 			"color": "#BFCADD",
 			"text": {
 				"tag": "travel & leisure",
@@ -217,7 +222,7 @@
 		{
 			"id": 15,
 			"type": "cat",
-			"image": ["http://localhost:8000/images/wide/greenery.jpg"],
+			"images": ["http://localhost:8000/images/wide/greenery.jpg"],
 			"color": "#E9EFE9",
 			"text": {
 				"tag": "greenery",
@@ -227,7 +232,7 @@
 		{
 			"id": 16,
 			"type": "cat",
-			"image": ["http://localhost:8000/images/wide/beaches.jpg"],
+			"images": ["http://localhost:8000/images/wide/beaches.jpg"],
 			"color": "#D0F1F6",
 			"text": {
 				"tag": "beaches",
@@ -289,7 +294,7 @@
 			"id": 19,
 			"type": "art",
 			"color": "#000000",
-			"image": ["http://localhost:8000/images/nyt-mountains.jpg"],
+			"images": ["http://localhost:8000/images/nyt-mountains.jpg"],
 			"logo": "http://localhost:8000/images/nyt.png",
 			"text": {
 				"tag": "the new york times",
@@ -305,7 +310,7 @@
 			"id": 20,
 			"type": "box",
 			"color": "#DFBC77",
-			"image": ["http://localhost:8000/images/vr.jpg"],
+			"images": ["http://localhost:8000/images/vr.jpg"],
 			"text": {
 				"tag": "technology",
 				"header": "Virtual Reality"
