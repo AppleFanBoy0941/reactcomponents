@@ -2,6 +2,7 @@
 import { css } from '@emotion/react';
 
 import useFetch from '../hooks/useFetch';
+import Card from './Card';
 let url = 'http://localhost:8000/cards';
 
 const Content = () => {
@@ -12,41 +13,41 @@ const Content = () => {
 			display: grid;
 			grid-template-columns: repeat(12, 5rem);
 			grid-template-rows: repeat(31, 5rem);
-			gap: 1rem;
+			gap: 1.5rem;
 			justify-content: center;
 			padding: 5rem 0;
 			grid-template-areas:
-				'1 1 1 1 2 2 2 2 2 2 2 2'
-				'1 1 1 1 2 2 2 2 2 2 2 2'
-				'1 1 1 1 2 2 2 2 2 2 2 2'
-				'1 1 1 1 2 2 2 2 2 2 2 2'
-				'1 1 1 1 2 2 2 2 2 2 2 2'
-				'3 3 3 4 4 4 5 5 5 6 6 6'
-				'3 3 3 4 4 4 5 5 5 6 6 6'
-				'3 3 3 4 4 4 5 5 5 6 6 6'
-				'7 7 7 7 8 8 8 8 9 9 9 9'
-				'7 7 7 7 8 8 8 8 9 9 9 9'
-				'7 7 7 7 8 8 8 8 9 9 9 9'
-				'7 7 7 7 8 8 8 8 9 9 9 9'
-				'10 10 10 10 10 10 10 10 11 11 11 11'
-				'10 10 10 10 10 10 10 10 11 11 11 11'
-				'10 10 10 10 10 10 10 10 11 11 11 11'
-				'10 10 10 10 10 10 10 10 11 11 11 11'
-				'10 10 10 10 10 10 10 10 11 11 11 11'
-				'12 12 12 12 12 12 12 12 11 11 11 11'
-				'12 12 12 12 12 12 12 12 11 11 11 11'
-				'13 13 13 13 14 14 14 14 11 11 11 11'
-				'13 13 13 13 14 14 14 14 11 11 11 11'
-				'15 15 15 15 17 17 17 17 18 18 18 18'
-				'15 15 15 15 17 17 17 17 18 18 18 18'
-				'16 16 16 16 17 17 17 17 18 18 18 18'
-				'16 16 16 16 17 17 17 17 18 18 18 18'
-				'20 20 20 20 17 17 17 17 18 18 18 18'
-				'20 20 20 20 17 17 17 17 19 19 19 19'
-				'20 20 20 20 17 17 17 17 19 19 19 19'
-				'20 20 20 20 17 17 17 17 19 19 19 19'
-				'21 21 22 22 17 17 17 17 19 19 19 19'
-				'21 21 22 22 17 17 17 17 19 19 19 19';
+				'card-1 card-1 card-1 card-1 card-2 card-2 card-2 card-2 card-2 card-2 card-2 card-2'
+				'card-1 card-1 card-1 card-1 card-2 card-2 card-2 card-2 card-2 card-2 card-2 card-2'
+				'card-1 card-1 card-1 card-1 card-2 card-2 card-2 card-2 card-2 card-2 card-2 card-2'
+				'card-1 card-1 card-1 card-1 card-2 card-2 card-2 card-2 card-2 card-2 card-2 card-2'
+				'card-1 card-1 card-1 card-1 card-2 card-2 card-2 card-2 card-2 card-2 card-2 card-2'
+				'card-3 card-3 card-3 card-4 card-4 card-4 card-5 card-5 card-5 card-6 card-6 card-6'
+				'card-3 card-3 card-3 card-4 card-4 card-4 card-5 card-5 card-5 card-6 card-6 card-6'
+				'card-3 card-3 card-3 card-4 card-4 card-4 card-5 card-5 card-5 card-6 card-6 card-6'
+				'card-7 card-7 card-7 card-7 card-8 card-8 card-8 card-8 card-9 card-9 card-9 card-9'
+				'card-7 card-7 card-7 card-7 card-8 card-8 card-8 card-8 card-9 card-9 card-9 card-9'
+				'card-7 card-7 card-7 card-7 card-8 card-8 card-8 card-8 card-9 card-9 card-9 card-9'
+				'card-7 card-7 card-7 card-7 card-8 card-8 card-8 card-8 card-9 card-9 card-9 card-9'
+				'card-10 card-10 card-10 card-10 card-10 card-10 card-10 card-10 card-11 card-11 card-11 card-11'
+				'card-10 card-10 card-10 card-10 card-10 card-10 card-10 card-10 card-11 card-11 card-11 card-11'
+				'card-10 card-10 card-10 card-10 card-10 card-10 card-10 card-10 card-11 card-11 card-11 card-11'
+				'card-10 card-10 card-10 card-10 card-10 card-10 card-10 card-10 card-11 card-11 card-11 card-11'
+				'card-10 card-10 card-10 card-10 card-10 card-10 card-10 card-10 card-11 card-11 card-11 card-11'
+				'card-12 card-12 card-12 card-12 card-12 card-12 card-12 card-12 card-11 card-11 card-11 card-11'
+				'card-12 card-12 card-12 card-12 card-12 card-12 card-12 card-12 card-11 card-11 card-11 card-11'
+				'card-13 card-13 card-13 card-13 card-14 card-14 card-14 card-14 card-11 card-11 card-11 card-11'
+				'card-13 card-13 card-13 card-13 card-14 card-14 card-14 card-14 card-11 card-11 card-11 card-11'
+				'card-15 card-15 card-15 card-15 card-17 card-17 card-17 card-17 card-18 card-18 card-18 card-18'
+				'card-15 card-15 card-15 card-15 card-17 card-17 card-17 card-17 card-18 card-18 card-18 card-18'
+				'card-16 card-16 card-16 card-16 card-17 card-17 card-17 card-17 card-18 card-18 card-18 card-18'
+				'card-16 card-16 card-16 card-16 card-17 card-17 card-17 card-17 card-18 card-18 card-18 card-18'
+				'card-20 card-20 card-20 card-20 card-17 card-17 card-17 card-17 card-18 card-18 card-18 card-18'
+				'card-20 card-20 card-20 card-20 card-17 card-17 card-17 card-17 card-19 card-19 card-19 card-19'
+				'card-20 card-20 card-20 card-20 card-17 card-17 card-17 card-17 card-19 card-19 card-19 card-19'
+				'card-20 card-20 card-20 card-20 card-17 card-17 card-17 card-17 card-19 card-19 card-19 card-19'
+				'card-21 card-21 card-22 card-22 card-17 card-17 card-17 card-17 card-19 card-19 card-19 card-19'
+				'card-21 card-21 card-22 card-22 card-17 card-17 card-17 card-17 card-19 card-19 card-19 card-19';
 		`,
 	};
 	return (
@@ -55,7 +56,7 @@ const Content = () => {
 			{isPending && <p>Loading...</p>}
 			{cards &&
 				cards.map((card, index) => {
-					return <div key={index}></div>;
+					return <Card card={card} key={card.id} />;
 				})}
 		</main>
 	);

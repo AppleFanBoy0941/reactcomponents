@@ -1,6 +1,7 @@
 {
 	"cards": [
 		{
+			"id": 1,
 			"type": "cat",
 			"color": "#6468AA",
 			"image": ["http://localhost:8000/images/surfing-img.jpg"],
@@ -11,6 +12,7 @@
 			}
 		},
 		{
+			"id": 2,
 			"type": "gall",
 			"image": [
 				"http://localhost:8000/images/gallery-1.jpg",
@@ -25,6 +27,7 @@
 			}
 		},
 		{
+			"id": 3,
 			"type": "info",
 			"icon": "truck",
 			"color": "#2559E5",
@@ -34,6 +37,7 @@
 			}
 		},
 		{
+			"id": 4,
 			"type": "info",
 			"icon": "package",
 			"color": "#F2AB72",
@@ -43,6 +47,7 @@
 			}
 		},
 		{
+			"id": 5,
 			"type": "info",
 			"icon": "award",
 			"color": "#4EA9D6",
@@ -52,6 +57,7 @@
 			}
 		},
 		{
+			"id": 6,
 			"type": "info",
 			"icon": "phone-call",
 			"color": "#6079E7",
@@ -61,6 +67,7 @@
 			}
 		},
 		{
+			"id": 7,
 			"type": "coll",
 			"image": [
 				"http://localhost:8000/images/collection-10.webp",
@@ -73,6 +80,7 @@
 			}
 		},
 		{
+			"id": 8,
 			"type": "coll",
 			"image": [
 				"http://localhost:8000/images/collection-1.jpg",
@@ -85,6 +93,7 @@
 			}
 		},
 		{
+			"id": 9,
 			"type": "coll",
 			"image": [
 				"http://localhost:8000/images/collection-123.webp",
@@ -97,6 +106,7 @@
 			}
 		},
 		{
+			"id": 10,
 			"type": "caro",
 			"images": [
 				"http://localhost:8000/images/carousel-1.jpg",
@@ -111,6 +121,7 @@
 			}
 		},
 		{
+			"id": 11,
 			"type": "list",
 			"color": "#4350AF",
 			"text": {
@@ -162,6 +173,7 @@
 			]
 		},
 		{
+			"id": 12,
 			"type": "list",
 			"list": [
 				{
@@ -183,6 +195,7 @@
 			]
 		},
 		{
+			"id": 13,
 			"type": "cat",
 			"image": ["http://localhost:8000/images/wide/architecture.jpg"],
 			"color": "#D3D36F",
@@ -192,6 +205,7 @@
 			}
 		},
 		{
+			"id": 14,
 			"type": "cat",
 			"image": ["http://localhost:8000/images/wide/travel.webp"],
 			"color": "#BFCADD",
@@ -201,6 +215,7 @@
 			}
 		},
 		{
+			"id": 15,
 			"type": "cat",
 			"image": ["http://localhost:8000/images/wide/greenery.jpg"],
 			"color": "#E9EFE9",
@@ -210,6 +225,7 @@
 			}
 		},
 		{
+			"id": 16,
 			"type": "cat",
 			"image": ["http://localhost:8000/images/wide/beaches.jpg"],
 			"color": "#D0F1F6",
@@ -219,6 +235,7 @@
 			}
 		},
 		{
+			"id": 17,
 			"type": "list",
 			"text": {
 				"header": "News digest"
@@ -255,6 +272,7 @@
 			]
 		},
 		{
+			"id": 18,
 			"type": "art",
 			"color": "#558CCC",
 			"logo": ["http://localhost:8000/images/nyt.png"],
@@ -268,6 +286,7 @@
 			}
 		},
 		{
+			"id": 19,
 			"type": "art",
 			"color": "#000000",
 			"image": ["http://localhost:8000/images/nyt-mountains.jpg"],
@@ -283,6 +302,7 @@
 			}
 		},
 		{
+			"id": 20,
 			"type": "box",
 			"color": "#DFBC77",
 			"image": ["http://localhost:8000/images/vr.jpg"],
@@ -296,6 +316,7 @@
 			}
 		},
 		{
+			"id": 21,
 			"type": "info",
 			"icon": "pen-tool",
 			"text": {
@@ -303,6 +324,7 @@
 			}
 		},
 		{
+			"id": 22,
 			"type": "info",
 			"icon": "book-open",
 			"text": {
