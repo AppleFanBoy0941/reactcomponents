@@ -1,303 +1,394 @@
 {
-	"sections": {
-		"long": {
-			"travel": {
-				"type": "cat",
-				"color": "#6468AA",
-				"image": "http://localhost:8000/images/surfing-img.jpg",
-				"text": {
-					"tag": "travel",
-					"header": "Surfing in Maldives",
-					"body": "It's windy. The cool breeze of the ocean. It gives, a sense of beauty, in motion. All is flowing, rushing and tide. And I sit in wonder, dreaming."
-				}
-			},
-			"art-1": {
-				"type": "art",
-				"color": "#558CCC",
-				"image": null,
-				"logo": "http://localhost:8000/images/nyt.png",
-				"text": {
-					"tag": "the new york times",
-					"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hendrerit rutrum. Nam egestas laoreet ligula, ac elementum risus. Aliquam volutpat ex eget elit venenatis, vel luctus arcu pulvinar.",
-					"button": "Read more"
-				}
-			},
-			"art-2": {
-				"type": "art",
-				"color": null,
-				"image": "http://localhost:8000/images/nyt-mountains.jpg",
-				"logo": "http://localhost:8000/images/nyt.png",
-				"text": {
-					"tag": "the new york times",
-					"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hendrerit rutrum. Nam egestas laoreet ligula, ac elementum risus. Aliquam volutpat ex eget elit venenatis, vel luctus arcu pulvinar.",
-					"button": "Read more"
-				}
-			},
-			"vr": {
-				"type": "vr",
-				"color": "#DFBC77",
-				"image": "http://localhost:8000/images/vr.jpg",
-				"text": {
-					"tag": "technology",
-					"header": "Virtual Reality"
-				}
+	"cards": [
+		{
+			"type": "cat",
+			"color": "#6468AA",
+			"image": ["http://localhost:8000/images/surfing-img.jpg"],
+			"text": {
+				"tag": "travel",
+				"header": "Surfing in Maldives",
+				"body": "It's windy. The cool breeze of the ocean. It gives, a sense of beauty, in motion. All is flowing, rushing and tide. And I sit in wonder, dreaming."
 			}
 		},
-		"x_large": {
-			"gallery": {
-				"id": 2,
-				"type": "gallery",
-				"images": [
-					"http://localhost:8000/images/gallery-1.jpg",
-					"http://localhost:8000/images/gallery-2.jpg",
-					"http://localhost:8000/images/gallery-3.jpg",
-					"http://localhost:8000/images/gallery-4.jpg"
-				],
-				"text": {
-					"tag": "leisure",
-					"header": "Outdoor Experience",
-					"body": "It's windy. The cool breeze of the ocean. It gives, a sense of beauty, in motion. All is flowing, rushing and tide. And I sit in wonder, dreaming beside."
-				}
-			},
-			"carousel": {
-				"id": 10,
-				"type": "carousel",
-				"images": [
-					"http://localhost:8000/images/carousel-1.jpg",
-					"http://localhost:8000/images/carousel-2.jpg",
-					"http://localhost:8000/images/carousel-3.jpg"
-				],
-				"logo": "http://localhost:8000/images/nyt.png",
-				"text": {
-					"tag": "the new york times",
-					"header": "Must see places for summer",
-					"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit"
-				}
+		{
+			"type": "gall",
+			"image": [
+				"http://localhost:8000/images/gallery-1.jpg",
+				"http://localhost:8000/images/gallery-2.jpg",
+				"http://localhost:8000/images/gallery-3.jpg",
+				"http://localhost:8000/images/gallery-4.jpg"
+			],
+			"text": {
+				"tag": "leisure",
+				"header": "Outdoor Experience",
+				"body": "It's windy. The cool breeze of the ocean. It gives, a sense of beauty, in motion. All is flowing, rushing and tide. And I sit in wonder, dreaming beside."
 			}
 		},
-		"medium": [
-			{
-				"id": 3,
-				"icon": "truck",
-				"color": "#2559E5",
-				"text": {
-					"header": "On-time delivery",
-					"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam"
-				}
-			},
-			{
-				"id": 4,
-				"icon": "package",
-				"color": "#F2AB72",
-				"text": {
-					"header": "Parcels",
-					"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam"
-				}
-			},
-			{
-				"id": 5,
-				"icon": "award",
-				"color": "#4EA9D6",
-				"text": {
-					"header": "Quality check",
-					"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam"
-				}
-			},
-			{
-				"id": 6,
-				"icon": "phone-call",
-				"color": "#6079E7",
-				"text": {
-					"header": "Customer service",
-					"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam"
-				}
-			}
-		],
-		"large": [
-			{
-				"id": 7,
-				"collection_id": 10,
-				"image": "http://localhost:8000/images/collection-10.webp",
-				"authorImg": "http://localhost:8000/images/author-1.jpeg",
-				"author": "Melanie S.",
-				"text": {
-					"header": "Off-the-grid experiences"
-				}
-			},
-			{
-				"id": 8,
-				"collection_id": 1,
-				"image": "http://localhost:8000/images/collection-1.jpg",
-				"authorImg": "http://localhost:8000/images/author-2.jpeg",
-				"author": "Saraha F.",
-				"text": {
-					"header": "Shapes, triangles & fashion"
-				}
-			},
-			{
-				"id": 9,
-				"collection_id": 123,
-				"image": "http://localhost:8000/images/collection-123.webp",
-				"authorImg": "http://localhost:8000/images/author-3.jpeg",
-				"author": "Benhour",
-				"text": {
-					"header": "In-depth architecture"
-				}
-			}
-		],
-		"x_long": {
-			"latest_news": {
-				"color": "#4350AF",
-				"title": "Latest news",
-				"list": [
-					{
-						"image": "http://localhost:8000/images/latest_news/nature.jpg",
-						"color": "#82BD83",
-						"text": {
-							"tag": "nature",
-							"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-						}
-					},
-					{
-						"image": "http://localhost:8000/images/latest_news/animal-kingdom.jpg",
-						"color": "#4D80B7",
-						"text": {
-							"tag": "animal kingdom",
-							"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-						}
-					},
-					{
-						"image": "http://localhost:8000/images/latest_news/tech.jpg",
-						"color": "#D1B881",
-						"text": {
-							"tag": "technology",
-							"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-						}
-					},
-					{
-						"image": "http://localhost:8000/images/latest_news/explore.jpg",
-						"color": "#E07F96",
-						"text": {
-							"tag": "explore",
-							"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-						}
-					},
-					{
-						"image": "http://localhost:8000/images/latest_news/africa-zoo.jpg",
-						"color": "#5C8FC3",
-						"text": {
-							"tag": "africa zoo",
-							"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-						}
-					}
-				]
-			},
-			"news_digest": {
-				"color": "#5BA577",
-				"title": "News digest",
-				"list": [
-					{
-						"number": 1,
-						"color": "#D0A65A",
-						"text": {
-							"header": "Technology",
-							"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet"
-						}
-					},
-					{
-						"number": 2,
-						"color": "#3574B3",
-						"text": {
-							"header": "Nature",
-							"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet"
-						}
-					},
-					{
-						"number": 3,
-						"color": "#5BA577",
-						"text": {
-							"header": "Design",
-							"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet"
-						}
-					},
-					{
-						"number": 4,
-						"color": "#67ADA8",
-						"text": {
-							"header": "Development",
-							"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet"
-						}
-					}
-				]
+		{
+			"type": "info",
+			"icon": "truck",
+			"color": "#2559E5",
+			"text": {
+				"header": "On-time delivery",
+				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam"
 			}
 		},
-		"x_wide": [
-			{
-				"list": [
-					{
-						"image": "http://localhost:8000/images/categories/food.jpg",
-						"color": "#C08BA2",
-						"text": {
-							"tag": "food & lifestyle",
-							"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-						}
-					},
-					{
-						"image": "http://localhost:8000/images/categories/fashion.jpg",
-						"color": "#5FAACA",
-						"text": {
-							"tag": "fashion",
-							"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-						}
+		{
+			"type": "info",
+			"icon": "package",
+			"color": "#F2AB72",
+			"text": {
+				"header": "Parcels",
+				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam"
+			}
+		},
+		{
+			"type": "info",
+			"icon": "award",
+			"color": "#4EA9D6",
+			"text": {
+				"header": "Quality check",
+				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam"
+			}
+		},
+		{
+			"type": "info",
+			"icon": "phone-call",
+			"color": "#6079E7",
+			"text": {
+				"header": "Customer service",
+				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam"
+			}
+		},
+		{
+			"type": "coll",
+			"image": [
+				"http://localhost:8000/images/collection-10.webp",
+				"http://localhost:8000/images/author-1.jpeg"
+			],
+			"text": {
+				"tag": "10",
+				"header": "Off-the-grid experiences",
+				"body": "Melanie S."
+			}
+		},
+		{
+			"type": "coll",
+			"image": [
+				"http://localhost:8000/images/collection-1.jpg",
+				"http://localhost:8000/images/author-2.jpeg"
+			],
+			"text": {
+				"tag": "1",
+				"header": "Shapes, triangles & fashion",
+				"body": "Saraha F."
+			}
+		},
+		{
+			"type": "coll",
+			"image": [
+				"http://localhost:8000/images/collection-123.webp",
+				"http://localhost:8000/images/author-3.jpeg"
+			],
+			"text": {
+				"tag": "123",
+				"header": "In-depth architecture",
+				"body": "Benhour"
+			}
+		},
+		{
+			"type": "caro",
+			"images": [
+				"http://localhost:8000/images/carousel-1.jpg",
+				"http://localhost:8000/images/carousel-2.jpg",
+				"http://localhost:8000/images/carousel-3.jpg"
+			],
+			"logo": "http://localhost:8000/images/nyt.png",
+			"text": {
+				"tag": "the new york times",
+				"header": "Must see places for summer",
+				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit"
+			}
+		},
+		{
+			"type": "list",
+			"color": "#4350AF",
+			"text": {
+				"header": "Latest news"
+			},
+			"list": [
+				{
+					"image": ["http://localhost:8000/images/latest_news/nature.jpg"],
+					"color": "#82BD83",
+					"text": {
+						"tag": "nature",
+						"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 					}
-				]
+				},
+				{
+					"image": [
+						"http://localhost:8000/images/latest_news/animal-kingdom.jpg"
+					],
+					"color": "#4D80B7",
+					"text": {
+						"tag": "animal kingdom",
+						"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+					}
+				},
+				{
+					"image": ["http://localhost:8000/images/latest_news/tech.jpg"],
+					"color": "#D1B881",
+					"text": {
+						"tag": "technology",
+						"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+					}
+				},
+				{
+					"image": ["http://localhost:8000/images/latest_news/explore.jpg"],
+					"color": "#E07F96",
+					"text": {
+						"tag": "explore",
+						"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+					}
+				},
+				{
+					"image": ["http://localhost:8000/images/latest_news/africa-zoo.jpg"],
+					"color": "#5C8FC3",
+					"text": {
+						"tag": "africa zoo",
+						"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+					}
+				}
+			]
+		},
+		{
+			"type": "list",
+			"list": [
+				{
+					"image": ["http://localhost:8000/images/categories/food.jpg"],
+					"color": "#C08BA2",
+					"text": {
+						"tag": "food & lifestyle",
+						"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+					}
+				},
+				{
+					"image": ["http://localhost:8000/images/categories/fashion.jpg"],
+					"color": "#5FAACA",
+					"text": {
+						"tag": "fashion",
+						"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+					}
+				}
+			]
+		},
+		{
+			"type": "cat",
+			"image": ["http://localhost:8000/images/wide/architecture.jpg"],
+			"color": "#D3D36F",
+			"text": {
+				"tag": "architecture",
+				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit  hendrerit"
 			}
-		],
-		"wide": [
-			{
-				"image": "http://localhost:8000/images/wide/architecture.jpg",
-				"color": "#D3D36F",
-				"text": {
-					"tag": "architecture",
-					"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit  hendrerit"
-				}
-			},
-			{
-				"image": "http://localhost:8000/images/wide/travel.webp",
-				"color": "#BFCADD",
-				"text": {
-					"tag": "travel & leisure",
-					"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit  hendrerit"
-				}
-			},
-			{
-				"image": "http://localhost:8000/images/wide/greenery.jpg",
-				"color": "#E9EFE9",
-				"text": {
-					"tag": "greenery",
-					"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit  hendrerit"
-				}
-			},
-			{
-				"image": "http://localhost:8000/images/wide/beaches.jpg",
-				"color": "#D0F1F6",
-				"text": {
-					"tag": "beaches",
-					"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit  hendrerit"
-				}
+		},
+		{
+			"type": "cat",
+			"image": ["http://localhost:8000/images/wide/travel.webp"],
+			"color": "#BFCADD",
+			"text": {
+				"tag": "travel & leisure",
+				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit  hendrerit"
 			}
-		],
-		"small": [
-			{
-				"color": "#6FB9B3",
-				"icon": "pen-tool",
+		},
+		{
+			"type": "cat",
+			"image": ["http://localhost:8000/images/wide/greenery.jpg"],
+			"color": "#E9EFE9",
+			"text": {
+				"tag": "greenery",
+				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit  hendrerit"
+			}
+		},
+		{
+			"type": "cat",
+			"image": ["http://localhost:8000/images/wide/beaches.jpg"],
+			"color": "#D0F1F6",
+			"text": {
+				"tag": "beaches",
+				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit  hendrerit"
+			}
+		},
+		{
+			"type": "list",
+			"text": {
+				"header": "News digest"
+			},
+			"list": [
+				{
+					"color": "#D0A65A",
+					"text": {
+						"header": "Technology",
+						"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet"
+					}
+				},
+				{
+					"color": "#3574B3",
+					"text": {
+						"header": "Nature",
+						"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet"
+					}
+				},
+				{
+					"color": "#5BA577",
+					"text": {
+						"header": "Design",
+						"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet"
+					}
+				},
+				{
+					"color": "#67ADA8",
+					"text": {
+						"header": "Development",
+						"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet"
+					}
+				}
+			]
+		},
+		{
+			"type": "art",
+			"color": "#558CCC",
+			"logo": ["http://localhost:8000/images/nyt.png"],
+			"text": {
+				"tag": "the new york times",
+				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hendrerit rutrum. Nam egestas laoreet ligula, ac elementum risus. Aliquam volutpat ex eget elit venenatis, vel luctus arcu pulvinar."
+			},
+			"button": {
+				"label": "Read more",
+				"href": "/"
+			}
+		},
+		{
+			"type": "art",
+			"color": "#000000",
+			"image": ["http://localhost:8000/images/nyt-mountains.jpg"],
+			"logo": "http://localhost:8000/images/nyt.png",
+			"text": {
+				"tag": "the new york times",
+				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hendrerit rutrum. Nam egestas laoreet ligula, ac elementum risus. Aliquam volutpat ex eget elit venenatis, vel luctus arcu pulvinar."
+			},
+			"button": {
+				"label": "Read more",
+				"type": "link",
+				"href": "/"
+			}
+		},
+		{
+			"type": "box",
+			"color": "#DFBC77",
+			"image": ["http://localhost:8000/images/vr.jpg"],
+			"text": {
+				"tag": "technology",
+				"header": "Virtual Reality"
+			},
+			"button": {
+				"icon": "bookmark",
+				"type": "bookmak"
+			}
+		},
+		{
+			"type": "info",
+			"icon": "pen-tool",
+			"text": {
 				"tag": "design"
-			},
-			{
-				"color": "#4F8CD2",
-				"icon": "book-open",
+			}
+		},
+		{
+			"type": "info",
+			"icon": "book-open",
+			"text": {
 				"tag": "education"
 			}
-		]
-	}
+		}
+	],
+	"style": [
+		{
+			"grid_area": 1,
+			"size": "l"
+		},
+		{
+			"grid_area": 2
+		},
+		{
+			"grid_area": 3,
+			"size": "l"
+		},
+		{
+			"grid_area": 4,
+			"size": "l"
+		},
+		{
+			"grid_area": 5,
+			"size": "l"
+		},
+		{
+			"grid_area": 6,
+			"size": "l"
+		},
+		{
+			"grid_area": 7
+		},
+		{
+			"grid_area": 8
+		},
+		{
+			"grid_area": 9
+		},
+		{
+			"grid_area": 10
+		},
+		{
+			"grid_area": 11
+		},
+		{
+			"grid_area": 12,
+			"size": "s"
+		},
+		{
+			"grid_area": 13,
+			"size": "s"
+		},
+		{
+			"grid_area": 14,
+			"size": "s"
+		},
+		{
+			"grid_area": 15,
+			"size": "s"
+		},
+		{
+			"grid_area": 16,
+			"size": "s"
+		},
+		{
+			"grid_area": 17,
+			"size": "l"
+		},
+		{
+			"grid_area": 18
+		},
+		{
+			"grid_area": 19
+		},
+		{
+			"grid_area": 20
+		},
+		{
+			"grid_area": 21,
+			"size": "s"
+		},
+		{
+			"grid_area": 22,
+			"size": "s"
+		}
+	]
 }
