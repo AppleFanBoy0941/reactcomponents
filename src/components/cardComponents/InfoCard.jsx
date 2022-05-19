@@ -4,7 +4,7 @@ import FeatherIcon from 'feather-icons-react';
 import Body from '../subComponents/Body';
 import Header from '../subComponents/Header';
 
-const InfoCart = ({ card }) => {
+const InfoCard = ({ card }) => {
 	const styles = {
 		card: css`
 			background: ${card.color};
@@ -44,4 +44,4 @@ const InfoCart = ({ card }) => {
 	);
 };
 
-export default InfoCart;
+export default InfoCard;
