@@ -55,7 +55,7 @@ const Content = () => {
 			{error && <p>{error}</p>}
 			{isPending && <p>Loading...</p>}
 			{cards &&
-				cards.map((card, index) => {
+				cards.map(card => {
 					return <Card card={card} key={card.id} />;
 				})}
 		</main>
