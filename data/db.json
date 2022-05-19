@@ -334,18 +334,20 @@
 		{
 			"id": 21,
 			"type": "info",
+			"color": "#6FB9B3",
 			"icon": "pen-tool",
 			"text": {
-				"tag": "design"
+				"header": "design"
 			},
 			"size": "s"
 		},
 		{
 			"id": 22,
 			"type": "info",
+			"color": "#4F8CD2",
 			"icon": "book-open",
 			"text": {
-				"tag": "education"
+				"header": "education"
 			},
 			"size": "s"
 		}

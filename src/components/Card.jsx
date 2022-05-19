@@ -4,6 +4,7 @@ import FeatherIcon from 'feather-icons-react';
 import useFetch from '../hooks/useFetch';
 import CatCard from './cardComponents/CatCart';
 import cat from './cardComponents/CatCart';
+import InfoCart from './cardComponents/InfoCart';
 
 const Card = ({ card }) => {
 	// const style = useFetch(`http://localhost:8000/style`);
@@ -23,6 +24,7 @@ const Card = ({ card }) => {
 	return (
 		<section css={styles.card}>
 			{card.type === 'cat' && <CatCard card={card} />}
+			{card.type === 'info' && <InfoCart card={card} />}
 			{/* {card.images && <img src={card.images[0]} />} */}
 			{/* {text.tag && <span>{text.tag}</span>}
 			{text.header && <h2>{text.header}</h2>}

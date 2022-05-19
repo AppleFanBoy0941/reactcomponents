@@ -6,7 +6,7 @@ const Tag = ({ text, color, type }) => {
 		tag: css`
 			text-transform: uppercase;
 			color: ${color || '#000000'};
-			font-size: 14px;
+			font-size: 12px;
 			font-weight: 700;
 			letter-spacing: 2px;
 		`,

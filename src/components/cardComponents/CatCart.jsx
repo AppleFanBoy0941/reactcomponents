@@ -1,15 +1,35 @@
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
+import Body from '../subComponents/Body';
+import Header from '../subComponents/Header';
 import Tag from '../subComponents/Tag';
 
 const CatCard = ({ card }) => {
 	let styles = {
 		text: css`
 			padding: 1.5rem;
+			display: flex;
+			flex-direction: column;
+			gap: 1rem;
+			/* font-size: 20px; */
 		`,
 		img: css`
 			height: 50%;
 			object-fit: cover; ;
+		`,
+		textS: css`
+			padding: 1.5rem;
+			background: linear-gradient(0deg, #00000030, #00000030),
+				url(${card.images[0]});
+			height: 100%;
+			background-size: cover;
+			display: flex;
+			flex-direction: column;
+			gap: 1rem;
+
+			& span {
+				text-shadow: 0 2px 0.5rem #00000030;
+			}
 		`,
 	};
 	return (
@@ -17,9 +37,18 @@ const CatCard = ({ card }) => {
 			{card.size === 'l' && (
 				<img css={styles.img} src={card.images[0]} alt={card.text.header} />
 			)}
-			<div css={styles.text}>
-				<Tag css={styles.tag} text={card.text.tag} color={card.color} />
-			</div>
+			{card.size === 'l' ? (
+				<div css={styles.text}>
+					<Tag css={styles.tag} text={card.text.tag} color={card.color} />
+					<Header text={card.text.header} />
+					<Body text={card.text.body} />
+				</div>
+			) : (
+				<div css={styles.textS}>
+					<Tag css={styles.tag} text={card.text.tag} color={card.color} />
+					<Body text={card.text.body} color="#fff" />
+				</div>
+			)}
 		</>
 	);
 };
