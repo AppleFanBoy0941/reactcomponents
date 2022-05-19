@@ -16,6 +16,7 @@ const Card = ({ card }) => {
 			border-radius: 1.5rem;
 			box-shadow: 0 0.5rem 3rem -1rem #15151505;
 			overflow: hidden;
+			position: relative;
 		`,
 	};
 

@@ -10,6 +10,7 @@ const Content = () => {
 
 	const style = {
 		main: css`
+			position: relative;
 			display: grid;
 			grid-template-columns: repeat(12, 5rem);
 			grid-template-rows: repeat(31, 5rem);

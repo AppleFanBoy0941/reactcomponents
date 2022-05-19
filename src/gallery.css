@@ -363,6 +363,8 @@
 	transition: 0.5s;
 	margin-right: 1rem;
 	cursor: pointer;
+	margin-top: auto;
+	margin-bottom: auto;
 }
 @media (max-width: 768px) {
 	.image-gallery-thumbnail {
@@ -394,6 +396,7 @@
 	width: 0px;
 	opacity: 0;
 	margin-right: 0;
+	height: 0;
 	/* height: 0; */
 }
 
@@ -401,6 +404,7 @@
 	.image-gallery-thumbnail:hover {
 		outline: none;
 		box-shadow: 0 0.5rem 2rem #00000030;
+		transform: scale(1.05);
 	}
 }
 /* @media (hover: hover) and (pointer: fine) and (max-width: 768px) {

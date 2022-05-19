@@ -10,7 +10,7 @@ const CatCard = ({ card }) => {
 			padding: 1.5rem;
 			display: flex;
 			flex-direction: column;
-			gap: 1rem;
+			/* gap: 1rem; */
 			/* font-size: 20px; */
 		`,
 		img: css`
@@ -40,7 +40,7 @@ const CatCard = ({ card }) => {
 			{card.size === 'l' ? (
 				<div css={styles.text}>
 					<Tag css={styles.tag} text={card.text.tag} color={card.color} />
-					<Header text={card.text.header} />
+					<Header text={card.text.header} space="1rem" />
 					<Body text={card.text.body} />
 				</div>
 			) : (
