@@ -15,6 +15,7 @@
 		{
 			"id": 2,
 			"type": "gall",
+			"color": "#2253CD",
 			"images": [
 				"http://localhost:8000/images/gallery-1.jpg",
 				"http://localhost:8000/images/gallery-2.jpg",
