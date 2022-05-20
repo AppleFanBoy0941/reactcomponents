@@ -2,9 +2,9 @@
 import { css } from '@emotion/react';
 import FeatherIcon from 'feather-icons-react';
 import useFetch from '../hooks/useFetch';
-import CatCard from './cardComponents/CatCard';
-import GallCard from './cardComponents/GallCard';
-import InfoCard from './cardComponents/InfoCard';
+import CatCard from '../layout/cardLayouts/CatCard';
+import GallCard from '../layout/cardLayouts/GallCard';
+import InfoCard from '../layout/cardLayouts/InfoCard';
 
 const Card = ({ card }) => {
 	// const style = useFetch(`http://localhost:8000/style`);
@@ -27,10 +27,6 @@ const Card = ({ card }) => {
 			{card.type === 'cat' && <CatCard card={card} />}
 			{card.type === 'gall' && <GallCard card={card} />}
 			{card.type === 'info' && <InfoCard card={card} />}
-			{/* {card.images && <img src={card.images[0]} />} */}
-			{/* {text.tag && <span>{text.tag}</span>}
-			{text.header && <h2>{text.header}</h2>}
-			{text.body && <p>{text.body}</p>} */}
 		</section>
 	);
 };

@@ -1,8 +1,8 @@
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
 import FeatherIcon from 'feather-icons-react';
-import Body from '../subComponents/Body';
-import Header from '../subComponents/Header';
+import Body from '../../components/subComponents/Body';
+import Header from '../../components/subComponents/Header';
 
 const InfoCard = ({ card }) => {
 	const styles = {
@@ -24,6 +24,7 @@ const InfoCard = ({ card }) => {
 			height: 4rem;
 			width: 4rem;
 			margin: 0 1rem 2rem auto;
+			color: #ffffff;
 		`,
 		iconS: css`
 			height: 3rem;

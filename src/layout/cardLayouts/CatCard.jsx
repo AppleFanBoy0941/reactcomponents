@@ -1,8 +1,8 @@
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
-import Body from '../subComponents/Body';
-import Header from '../subComponents/Header';
-import Tag from '../subComponents/Tag';
+import Body from '../../components/subComponents/Body';
+import Header from '../../components/subComponents/Header';
+import Tag from '../../components/subComponents/Tag';
 
 const CatCard = ({ card }) => {
 	let styles = {

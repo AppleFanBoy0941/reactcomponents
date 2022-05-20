@@ -2,9 +2,9 @@
 import { css } from '@emotion/react';
 import ImageGallery from 'react-image-gallery';
 import '../../gallery.css';
-import Body from '../subComponents/Body';
-import Header from '../subComponents/Header';
-import Tag from '../subComponents/Tag';
+import Body from '../../components/subComponents/Body';
+import Header from '../../components/subComponents/Header';
+import Tag from '../../components/subComponents/Tag';
 
 const GallCard = ({ card }) => {
 	let images = [];
